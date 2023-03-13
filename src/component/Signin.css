@@ -1,0 +1,88 @@
+.text{
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 110px;
+    margin-bottom: 20px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 23px;
+
+   
+}
+.p{
+    color:  Blue;
+    
+    margin-left: 430px;
+    margin-bottom: -2%;
+    width: 376px;
+    height: 74px;
+    
+   
+}
+.box{
+    background-color: #D9D9D9;
+}
+.form{
+    text-align: center;
+}
+.groupp{
+    text-align: center;
+    border: none;
+}
+.button{
+    background-color: #130063;
+    color: white;
+    
+}
+.group{
+    text-align: center;
+    border: none;
+}
+.input{
+    border: none;
+}
+.card{
+    background-color: #D9D9D9;
+    width: 428px;
+    height: 416px;
+    top: 316px;
+    left: 520px;
+    border-radius: 20px;
+    text-align: center;  
+    margin-left: 520px;
+}
+.button{
+    width: 300px;
+    height: 46px;
+    border-radius: 16px;
+    padding: 16px, 157px, 16px, 157px;
+}
+.group{
+margin-top: 80px;
+margin-right: 20px;
+}
+.input{
+    color: #A2A2A7;
+    width: 99px;
+    height: 14px;
+    margin-top: 30px;
+    margin-left: -220px;
+    background-color: #D9D9D9;
+}
+.S{
+    color: #130063;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 32px;
+padding: 40px;
+}
+.user{
+    color: #A2A2A7;
+}
+.c{
+    color: #130063;
+
+}

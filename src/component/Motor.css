@@ -1,0 +1,14 @@
+.contentM {
+    padding: 5px;
+    display: flex;
+    gap: 10px;
+  }
+  .textM {
+    font-size: 18px;
+    color: #130063;
+  }
+  .checkbox1 {
+    display: flex;
+    gap: 10px;
+  }
+  

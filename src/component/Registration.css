@@ -1,0 +1,46 @@
+.form-reg {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    gap: 40px;
+  }
+  .imgR {
+    display: grid;
+    grid-template-columns: auto;
+    font-size: 10px;
+    justify-content: space-around;
+    color: #130063;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .Magnify {
+    margin-left: 30px;
+  }
+  .textR {
+    display: flex;
+  }
+  .font1 {
+    color: #848588;
+  }
+  .box-pR {
+    position: absolute;
+    left: 10%;
+    top: 40%;
+    width: 80%;
+    height: 100vh;
+    padding: 50px;
+    background: linear-gradient(90deg, #f7f7fb 0%, #fafafa 100%);
+    border: 1px solid #d9d9d9;
+    border-radius: 20px;
+    -moz-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+  }
+  .footer {
+    display: flex;
+    justify-content: center;
+  }
+  .btn-close {
+    color: white;
+  }
+  

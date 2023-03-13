@@ -1,0 +1,331 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .box-p {
+    position: absolute;
+    left: 10%;
+    top: 40%;
+    width: 80%;
+    padding: 50px;
+    background: linear-gradient(90deg, #f7f7fb 0%, #fafafa 100%);
+    border: 1px solid #d9d9d9;
+    border-radius: 20px;
+    -moz-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+  }
+  .content-p {
+    width: 70%;
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+  }
+  .context-p {
+    display: flex;
+    justify-content: space-between;
+  }
+  .NIN {
+    width: 300px;
+    height: 40px;
+    background: #ffffff;
+    border: 1px solid #d0d5dd;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 5px;
+  }
+  .NIN1 {
+    padding: 8px;
+    width: 300px;
+    background: #ffffff;
+    border: 1px solid #d0d5dd;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 5px;
+  }
+  .context-p2 {
+    display: flex;
+    padding-top: 15px;
+    justify-content: left;
+    gap: 30px;
+    width: 100%;
+  }
+  input[name="gender"] {
+    accent-color: #130063;
+  }
+  .text {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    padding-left: 20px;
+    line-height: 22px;
+    color: #130063;
+  }
+  .form-check {
+    display: flex;
+  }
+  .radio1 {
+    margin-top: -20px;
+    margin-left: 5px;
+  }
+  .radio {
+    margin-left: 5px;
+  }
+  .text2 {
+    padding: 20px;
+    width: 75%;
+    font-family: "Inter";
+    font-style: italic;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .form {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 20px;
+    gap: 40px;
+  }
+  .context-3 {
+    padding: 20px;
+  }
+  .form-2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 40px;
+    width: 100%;
+  }
+  .date {
+    display: flex;
+    gap: 30px;
+    width: 300px;
+  }
+  .date1 {
+    padding: 8px;
+    width: 150px;
+    background: #ffffff;
+    border: 1px solid #d0d5dd;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 5px;
+    color: #939393;
+  }
+  .book {
+    display: flex;
+    width: 100%;
+  }
+  .context-p3 {
+    display: flex;
+    padding-top: 15px;
+    justify-content: left;
+    gap: 30px;
+    width: 100%;
+  }
+  .text1 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    color: #777778;
+  }
+  .gapp {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 40px;
+    padding: 20px;
+  }
+  .file {
+    display: flex;
+    gap: 10px;
+  }
+  .form-3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 40px;
+    padding: 20px;
+  }
+  .Attach {
+    height: 20px;
+    width: 18.86250114440918px;
+    margin-top: 5px;
+  }
+  .para2 {
+    margin-top: 5px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #848588;
+  }
+  .context5 {
+    height: auto;
+    margin-top: 30px;
+    width: 95%;
+    padding: 50px;
+    border-radius: 20px;
+    font-family: "poppins";
+    color: #130063;
+    background: rgba(10, 106, 218, 0.1);
+    border-radius: 20px;
+  }
+  .context5 h1 {
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 28px;
+    text-align: left;
+  }
+  .context5 input {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .context5 p {
+    font-size: 14px;
+  }
+  .context5 h2 {
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  .Signature {
+    display: flex;
+  }
+  .buttons {
+    display: flex;
+    width: 95%;
+    justify-content: right;
+    gap: 30px;
+    padding: 30px;
+  }
+  .text-light {
+    background-color: #130063;
+  }
+  select:focus > option:checked {
+    background: #5b4b9b !important;
+  }
+  .buttons button {
+    width: 80px;
+    color: #130063;
+    border: 1px solid #130063;
+  }
+  .buttons button:hover {
+    background-color: #130063;
+  }
+  
+  @media only screen and (max-width: 1036px) {
+    .box-p {
+      padding: 20px;
+    }
+    .context-p2 {
+      display: grid;
+      padding: 0px;
+      grid-template-columns: auto;
+    }
+    .content-p {
+      width: 100%;
+    }
+    .thumb {
+      display: none;
+    }
+    .radio1 {
+      margin-top: 0px;
+    }
+    .ProfileImage {
+      padding: 30px;
+      height: 200px;
+    }
+    .form-2 {
+      display: grid;
+      grid-template-columns: auto auto;
+    }
+    .form-3 {
+      display: grid;
+      grid-template-columns: auto auto;
+    }
+    .form-check {
+      width: 100px;
+      display: grid;
+      grid-template-columns: auto auto;
+    }
+    .form {
+      display: grid;
+      grid-template-columns: auto auto;
+    }
+    .gapp {
+      display: grid;
+      grid-template-columns: auto auto;
+    }
+    .context5 {
+      margin-left: 20px;
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    .form-2 {
+      display: grid;
+      grid-template-columns: auto;
+    }
+    .form-3 {
+      display: grid;
+      grid-template-columns: auto;
+    }
+    .form {
+      display: grid;
+      grid-template-columns: auto;
+    }
+    .gapp {
+      display: grid;
+      grid-template-columns: auto;
+    }
+    .content-p {
+      width: 50%;
+    }
+    .radio{
+      height: 25px;
+      width: 20px;
+    }
+  }
+  @media only screen and (max-width: 500px){
+    .NIN {
+      width: 200px;
+      height: 35px;
+    }
+    .NIN1 {
+      width: 200px;
+    }
+    .ProfileImage{
+      display: none;
+    }
+    .date {
+      display: flex;
+      width: 200px;
+    }
+    .context-p3{
+      display: grid;
+      grid-template-columns: auto;
+      
+    }
+    .context5 {
+      margin-left: 5px;
+      width: 100%;
+      text-align: left;
+      padding: 10px;
+      height: auto;
+      margin-top: 30px;
+    }
+    .context5 h1 {
+      font-size: 20px;
+      font-weight: 800;
+      line-height: 28px;
+      text-align: left;
+    }
+    .context5 input {
+      margin-left: 0px;
+      width: 100px;
+      
+    }
+    .context5 p {
+      font-size: 14px;
+    }
+    .box-p {
+      padding: 10px;
+    }
+  }
+  
