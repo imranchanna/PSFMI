@@ -1,6 +1,6 @@
 import React from "react";
-import frame1 from "./images/Frame1.png"
-import frame2 from "./images/Frame2.png";
+import frame1 from "../../../Assets/images/Frame1.png"
+import frame2 from "../../../Assets/images/Frame2.png";
 import { useNavigate } from "react-router-dom";
 import "./Login.css";
 import { FaEnvelope, FaLock, FaEye } from "react-icons/fa";

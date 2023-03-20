@@ -1,4 +1,6 @@
 * {
+  padding: 0;
+  margin: 0;
     box-sizing: border-box;
   }
   @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
@@ -22,7 +24,7 @@
     position: absolute;
     width: 376px;
     height: 74px;
-    left: 36%;
+    left: 36.5%;
     top: 18%;
     font-family: "Poppins", sans-serif;
     font-style: normal;
@@ -112,7 +114,7 @@
     text-decoration: none;
     color: #9c9c9c;
   }
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 789px) {
     .frame1 {
       display: none;
     }
@@ -121,19 +123,37 @@
     }
     .para {
       position: absolute;
-      left: 12%;
+      left: 22.5%;
+      margin-top: -50px;
+      
     }
     .box {
       position: absolute;
-      left: 10%;
+    left: 7%;
+   width: 650px;
     }
+    
   }
   
-  @media only screen and (max-width: 500px){
+  @media only screen and (max-width: 376px){
     .box{
-      width: 80%;
+     
+      width: 345px;
+      left: 17px;
+    
+      margin-top: 15%;
     }
     .para{
-      width: 80%;
+   
+     width: 260px;
+     left: 15%;
+
+      
+      /* margin-bottom: 90%; */
+      /* margin-top: 30px; */
+    }
+    .container{
+      margin-bottom: 100px;
+      margin-top: 50px;
     }
   }

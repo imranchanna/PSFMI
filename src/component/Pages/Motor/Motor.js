@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "./Navbar";
+import Navbar from "../Navbar/Navbar";
 import "./Motor.css";
 
 function motor() {
@@ -12,7 +12,7 @@ function motor() {
             <input className="NIN1" key={title} placeholder={title}></input>
           );
         })}
-        <div className="contentM">
+        <div className="c">ontentM
           <h2 className="textM">Ownership</h2>
           <div className="checkbox1">
             <div class="check">

@@ -1,5 +1,5 @@
 import React from 'react'
-import Input from './Registration';
+import Input from "../Registration/Registration";
 
 function Iidentity({placeholder1}) {
   return (

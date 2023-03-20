@@ -1,9 +1,10 @@
 import React from "react";
 import "./Company.css";
 
-import Table from "./images/Table.png"
-import Attach from "./images/Attach.png";
-import Navbar from "./Navbar";
+
+import Attach from "../../../Assets/images/Attach.png";
+import Table from "../../../Assets/images/Table.png";
+import Navbar from "../Navbar/Navbar";
 function Company() {
   function Select({ text }) {
     console.log(text);
@@ -126,7 +127,7 @@ function Company() {
           </div>
         </div>
             <div className="ContentC2">
-              <h2 className="text">License Category</h2>
+              <h2 className="textC2">License Category</h2>
               <div className="checkbox">
                 <div class="check">
                   <input
@@ -188,17 +189,17 @@ function Company() {
             </div>
           </div>
           <div className="contentC2">
-            <h2 className="text">Address of Head office</h2>
+            <h2 className="textC2">Address of Head office</h2>
             <Input placeholder={placeholder1} />
           </div>
           <div className="contentC2">
-            <h2 className="text">Address of Branch office</h2>
+            <h2 className="textC2">Address of Branch office</h2>
             <Input placeholder={placeholder1} />
           </div>
           <div className="contentC3">
-            <h2 className="text">Primary Contact Person</h2>
+            <h2 className="textC2">Primary Contact Person</h2>
             <Input placeholder={placeholder2} />
-            <h2 className="text">Secondary Contact Person</h2>
+            <h2 className="textC2">Secondary Contact Person</h2>
             <Input placeholder={placeholder2} />
           </div>
           <div className="contentC4">

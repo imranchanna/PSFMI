@@ -4,12 +4,17 @@
   padding-top: 0;
   margin-top: 0;
 }
-.background {
+ .background {
   width: 100%;
+}
+.logo{
+  margin-left: 20px;
+  margin-top: 14px;
 }
 .container2 {
   height: 270px;
   width: 100%;
+  margin-top: -2.5%;
   position: fixed;
   background: radial-gradient(
     30.65% 59.26% at 53.43% 61%,
@@ -104,6 +109,7 @@ ul.nav li.active a {
   }
   .h4 {
   }
+  
   .navbar-toggler {
     background-color: rgb(129, 128, 128);
   }

@@ -1,17 +1,17 @@
 import React from 'react'
 
-import Signin from './component/Signin';
-import Navbar from './component/Navbar';
-import Signup from './component/Signup';
-import Login from './component/Login';
-import Forget from './component/Forget'
-import Profile from './component/Profile';
-import Company from './component/Company';
-import Firearms from './component/Firearms';
-import Motor from './component/Motor';
-import Incident from './component/Incidentreport';
-import Registration from './component/Registration';
-import ID from "./component/ID";
+import Signin from "./component/Pages/Signin/Signin";
+import Navbar from './component/Pages/Navbar/Navbar';
+import Signup from './component/Pages/Signup/Signup';
+import Login from './component/Pages/Login/Login';
+import Forget from './component/Pages/Forget/Forget'
+import Profile from './component/Pages/Profile/Profile';
+import Company from './component/Pages/Company/Company';
+import Firearms from './component/Pages/Firearms/Firearms';
+import Motor from './component/Pages/Motor/Motor';
+import Incident from './component/Pages/Incident/Incidentreport';
+import Registration from './component/Pages/Registration/Registration';
+import ID from "./component/Pages/ID/ID";
 import {BrowserRouter as Router,Routes,Route} from 'react-router-dom'; 
 
 function App() {

@@ -1,7 +1,7 @@
 import React from 'react'
-import Navbar from './Navbar';
+import Navbar from '../Navbar/Navbar';
 import "./Firearms.css";
-import Attach from "./images/Attach.png";
+import Attach from "../../../Assets/images/Attach.png";
 
 function Firearms() {
 
@@ -164,13 +164,13 @@ const text1=[ {value: 'Type', text: 'Type'},
                     </div>
                     <div className='contextF'>
                      <Select text={text5}/>
-            <img className='Attach' src={Attach} alt="pokemon"></img>
+            <img className='AttachC' src={Attach} alt="pokemon"></img>
             </div>
             </div>
             <Textarea placeholder={placeholder1}/>
             <div className='contextC2'>
                   <p>Attach firearm license & permit</p>
-                  <img className='Attach' src={Attach} alt="pokemon" ></img>
+                  <img className='Attach2' src={Attach} alt="pokemon" ></img>
                 </div>
                 <div className='buttons'>
           <button type="button" class="btn btn-outline-secondary">Clear</button>

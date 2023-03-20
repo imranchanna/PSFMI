@@ -1,7 +1,7 @@
 import React from "react";
 import "./Navbar.css";
-import background from "./images/Background.png";
-import logo from "./images/logo.png";
+import background from "../../../Assets/images/Background.png";
+import logo from "../../../Assets/images/logo.png";
 import { MdLogout } from "react-icons/md";
 import { useNavigate } from "react-router-dom";
 

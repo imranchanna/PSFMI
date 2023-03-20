@@ -1,9 +1,10 @@
 import React from "react";
-import "./Profile.css";
-import ProfileImage from "./images/Profile.png";
-import thumb from "./images/Thumb.png";
-import Attach from "./images/Attach.png";
-import Navbar from "./Navbar";
+import "../Profile/Profile.css";
+
+import ProfileImage from "../../../Assets/images/Profile.png";
+import thumb from "../../../Assets/images/Thumb.png";
+import Attach from "../../../Assets/images/Attach.png";
+import Navbar from "../Navbar/Navbar";
 import { useNavigate } from "react-router-dom";
 function Profile() {
   const navigate = useNavigate("");
@@ -250,7 +251,9 @@ function Profile() {
           <div className="context-p">
             <div className="content-p">
               <div className="context-p2">
-                <h2 className="text">Do you have NIN</h2>
+              <div className="Do">
+                <h2 className="textp">Do you have NIN</h2>
+                </div>
                 <div class="form-check">
                   <label class="form-check-label" for="yes">
                     Yes
@@ -261,8 +264,6 @@ function Profile() {
                     name="gender"
                     value="M"
                   />
-                </div>
-                <div class="form-check">
                   <label class="form-check-label" for="no">
                     No
                   </label>
@@ -276,12 +277,15 @@ function Profile() {
                 </div>
 
                 <input type="text" className="NIN" placeholder="Enter NIN" />
+               
               </div>
+              <div className="imgg">
               <img className="thumb" src={thumb} alt="pokemon"></img>
+              </div>
             </div>
             <img className="ProfileImage" src={ProfileImage} alt="pokemon"></img>
           </div>
-          <p className="text2">
+          <p className="text22">
             (This is to be verified in real time against the National Identity
             Card database – incase someone lost their National ID, we should be
             able to use their thumbprint for the verification)
@@ -308,7 +312,7 @@ function Profile() {
             <Select text={text5} />
           </div>
           <div className="context-3">
-            <h2 className="text">Previous Employment</h2>
+            <h2 className="text1">Previous Employment</h2>
             <div className="form-2">
               <input type="text" className="NIN1" placeholder="Employer" />
               <input
@@ -330,17 +334,18 @@ function Profile() {
             <Books name={name1} />
             <Input placeholder={placeholder1} />
           </div>
-          <div className="context4">
+          
             <Books name={name2} />
-            <h2 className="text">Children's Details</h2>
+            <div className="context-3">
+            <h2 className="text1">Children's Details</h2>
             <Input placeholder={placeholder2} />
           </div>
-          <div className="context4">
-            <h2 className="text">Next of Kin(NOK)</h2>
+          <div className="context-3">
+            <h2 className="text1">Next of Kin(NOK)</h2>
             <Input placeholder={placeholder3} />
           </div>
-          <div className="context4">
-            <h2 className="text">Refrees(At least two)</h2>
+          <div className="context-3">
+            <h2 className="text1">Refrees(At least two)</h2>
             <div className="form-3">
               <input type="text" className="NIN1" placeholder="NIN" />
               <input type="text" className="NIN1" placeholder="First Name" />

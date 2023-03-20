@@ -1,10 +1,11 @@
 import React from "react";
-import Navbar from "./Navbar";
+import Navbar from "../Navbar/Navbar";
 import "./Registration.css";
-import Document from "./images/Document.png";
-import Download from "./images/Download.png";
-import Share from "./images/Share.png";
-import Magnify from "./images/Magnify.png";
+import Document from "../../../Assets/images/Document.png";
+import Download from "../../../Assets/images/Download.png";
+import Share from "../../../Assets/images/Share.png";
+import Magnify from "../../../Assets/images/Magnify.png";
+
 function Registration() {
   function Input({ placeholder }) {
     console.log(placeholder);

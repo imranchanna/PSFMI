@@ -11,4 +11,13 @@
     display: flex;
     gap: 10px;
   }
+  @media only screen and (max-width: 769px){
+
+  }
+  @media only screen and (max-width: 376px){
   
+  .box-p{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
